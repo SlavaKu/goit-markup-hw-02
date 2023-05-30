@@ -59,6 +59,10 @@ li {
   color: #404bbf;
 }
 
+.header-menu-list {
+  letter-spacing: 0.02em;
+}
+
 .header-contakts {
   font-style: normal;
 }
