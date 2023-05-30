@@ -102,6 +102,11 @@ li {
 .header-contakts-link :hover {
   color: #404bbf;
 }
+
+.header-contakts-link :focus {
+  color: #404bbf;
+}
+
 /**------hero-------**/
 
 .hero {
@@ -187,6 +192,10 @@ li {
 
 .team-list {
   align-items: center;
+  background-color: #ffffff;
+}
+
+.team-list-images {
   background-color: #ffffff;
 }
 
