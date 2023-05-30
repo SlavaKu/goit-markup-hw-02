@@ -174,16 +174,27 @@ li {
 }
 
 .footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #f4f4fd;
+  line-height: 1.17;
+  color: #4d5ae5;
+  text-transform: uppercase;
 }
 
-.footer-logo span {
-  color: #4d5ae5;
+.footer-logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  color: #f4f4fd;
+  text-transform: uppercase;
 }
+
 .footer-paragraph {
   font-weight: 400;
   font-size: 16px;
@@ -193,6 +204,10 @@ li {
 }
 
 /**------section portfolio-------**/
+
+.portfolio {
+  font: inherit;
+}
 
 .portfolio-btn {
   font-weight: 500;
