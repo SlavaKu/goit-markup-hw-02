@@ -59,6 +59,23 @@ li {
   color: #404bbf;
 }
 
+.header-contakts {
+  font-style: normal;
+}
+
+.header-contakts-list {
+  list-style: none;
+}
+
+.header-contakts-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-contakts-link :hover {
+  color: #404bbf;
+}
 /**------hero-------**/
 
 .hero {
