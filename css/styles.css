@@ -99,11 +99,11 @@ li {
   color: #434455;
 }
 
-.header-contakts-link :hover {
+.header-contakts-item :hover {
   color: #404bbf;
 }
 
-.header-contakts-link :focus {
+.header-contakts-item :focus {
   color: #404bbf;
 }
 
