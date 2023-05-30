@@ -214,14 +214,14 @@ li {
   color: #ffffff;
 }
 
-/**------section choice-------**/
-
 .choice-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  list-style: none;
+  text-decoration: none;
 }
 
 .choice-list-paragraph {
