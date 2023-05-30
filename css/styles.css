@@ -5,6 +5,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 a {
@@ -21,17 +23,25 @@ li {
 /**------header-------**/
 
 .header-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   letter-spacing: 0.03em;
   line-height: 1.17;
-  color: #2e2f42;
+  color: #4d5ae5;
+  text-transform: uppercase;
 }
 
-.header-logo span {
-  color: #4d5ae5;
+.header-logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  color: var(--title-color);
+  text-transform: uppercase;
 }
 
 .header-menu-link {
@@ -55,6 +65,7 @@ li {
   left: 0px;
   top: 72px;
   background: #2e2f42;
+  text-align: center;
 }
 
 .hero-title {
@@ -103,8 +114,6 @@ li {
 }
 /**------section about-------**/
 
-.about {
-}
 .about-title {
   font-style: normal;
   font-weight: 700;
@@ -112,6 +121,7 @@ li {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  text-align: center;
 }
 
 /**------section team-------**/
@@ -166,10 +176,6 @@ li {
 
 /**------section portfolio-------**/
 
-.portfolio {
-}
-.portfolio-list {
-}
 .portfolio-btn {
   font-weight: 500;
   font-size: 16px;
