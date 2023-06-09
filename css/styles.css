@@ -53,10 +53,12 @@ ul {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
+  padding: 0 15px;
 }
 
 .header-navigation {
@@ -73,6 +75,7 @@ ul {
   line-height: 1.17;
   color: #4d5ae5;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-web {
@@ -84,6 +87,7 @@ ul {
   line-height: 1.17;
   color: var(--title-color);
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-navigation {
@@ -94,6 +98,7 @@ ul {
 
 .header-menu-list {
   display: flex;
+  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -165,6 +170,7 @@ ul {
 .hero {
   padding-bottom: 120px;
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .container {
@@ -201,6 +207,7 @@ ul {
   border: none;
   margin: 0 auto;
   display: block;
+  border-radius: 4px;
 }
 
 .hero-btn:hover {
@@ -216,6 +223,9 @@ ul {
 .components {
   padding-bottom: 120px;
   padding-top: 120px;
+}
+
+.visually-hidden {
 }
 
 .components-item-title {
@@ -242,11 +252,14 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 /**------section about-------**/
+.about {
+  padding-bottom: 120px;
+}
 
 .container {
-  padding-bottom: 120px;
 }
 .about-title {
   max-width: 323px;
@@ -267,6 +280,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   gap: 24px;
+  width: calc((100% - 48px) / 3);
 }
 
 .about-list-images {
