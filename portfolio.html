@@ -10,168 +10,179 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body class="body">
     <header class="header">
-      <nav class="header-navigation">
-        <a href="./index.html" class="header-logo link"
-          >Web<span class="header-logo-web">Studio</span></a
-        >
-        <ul class="header-menu-list list">
-          <li class="header-menu-item">
-            <a class="header-menu-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-menu-item">
-            <a class="header-menu-link link" href="./portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li class="header-menu-item">
-            <a class="header-menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="header-contakts">
-        <ul class="header-contakts-list list">
-          <li class="header-contakts-item">
-            <a
-              class="header-contakts-link link"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-contakts-item">
-            <a class="header-contakts-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="header-logo link"
+            >Web<span class="header-logo-web">Studio</span></a
+          >
+          <ul class="header-menu-list list">
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-contakts">
+          <ul class="header-contakts-list list">
+            <li class="header-contakts-item">
+              <a
+                class="header-contakts-link link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-contakts-item">
+              <a class="header-contakts-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <section class="portfolio">
-        <h1 hidden>button portfolio</h1>
-        <ul class="portfolio-list list">
-          <li class="portfolio-list-btn">
-            <button type="button" class="portfolio-btn">All</button>
-          </li>
-          <li class="portfolio-list-btn">
-            <button type="button" class="portfolio-btn">Web Site</button>
-          </li>
-          <li class="portfolio-list-btn">
-            <button type="button" class="portfolio-btn">App</button>
-          </li>
-          <li class="portfolio-list-btn">
-            <button type="button" class="portfolio-btn">Design</button>
-          </li>
-          <li class="portfolio-list-btn">
-            <button type="button" class="portfolio-btn">Marketing</button>
-          </li>
-        </ul>
-        <ul class="choice-list list">
-          <li class="choice-list-image link">
-            <a class="choise-link link" href="">
-              <img
-                src="./images/portfolio1.jpg"
-                alt="banking App"
-                width="360"
-              />
-              <h2 class="choice-list-title">Banking App Interface Concept</h2>
-              <p class="choice-list-paragraph">App</p>
-            </a>
-          </li>
-          <li class="choice-list-image">
-            <a class="choise-link link" href="">
-              <img
-                src="./images/portfolio2.jpg"
-                alt="Cashless Payment"
-                width="360"
-              />
-              <h2 class="choice-list-title">Cashless Payment</h2>
-              <p class="choice-list-paragraph">Marketing</p>
-            </a>
-          </li>
-          <li class="choice-list-image">
-            <a class="choise-link link" href="">
-              <img
-                src="./images/portfolio3.jpg"
-                alt="Mediation App"
-                width="360"
-              />
-              <h2 class="choice-list-title">Meditation App</h2>
-              <p class="choice-list-paragraph">App</p>
-            </a>
-          </li>
-          <li class="choice-list-image">
-            <a class="choise-link link" href="">
-              <img
-                src="./images/portfolio4.jpg"
-                alt="Taxi Service"
-                width="360"
-              />
-              <h2 class="choice-list-title">Taxi Service</h2>
-              <p class="choice-list-paragraph">Marketing</p>
-            </a>
-          </li>
-          <li class="choice-list-image">
-            <a class="choise-link link" href="">
-              <img
-                src="./images/portfolio5.jpg"
-                alt="Screen Illustrations"
-                width="360"
-              />
-              <h2 class="choice-list-title">Screen Illustrations</h2>
-              <p class="choice-list-paragraph">Design</p>
-            </a>
-          </li>
-          <li class="choice-list-image">
-            <a class="choise-link link" href="">
-              <img
-                src="./images/portfolio6.jpg"
-                alt="Online Courses"
-                width="360"
-              />
-              <h2 class="choice-list-title">Online Courses</h2>
-              <p class="choice-list-paragraph">Marketing</p>
-            </a>
-          </li>
-          <li class="choice-list-image">
-            <a class="choise-link link" href="">
-              <img
-                src="./images/portfolio7.jpg"
-                alt="Instagram Stories"
-                width="360"
-              />
-              <h2 class="choice-list-title">Instagram Stories Concept</h2>
-              <p class="choice-list-paragraph">Design</p>
-            </a>
-          </li>
-          <li class="choice-list-image">
-            <a class="choise-link link" href="">
-              <img
-                src="./images/portfolio8.jpg"
-                alt="Organic Food"
-                width="360"
-              />
-              <h2 class="choice-list-title">Organic Food</h2>
-              <p class="choice-list-paragraph">Web Site</p>
-            </a>
-          </li>
-          <li class="choice-list-image">
-            <a class="choise-link link" href="">
-              <img
-                src="./images/portfolio9.jpg"
-                alt="Fresh Coffee"
-                width="360"
-              />
-              <h2 class="choice-list-title">Fresh Coffee</h2>
-              <p class="choice-list-paragraph">Web Site</p>
-            </a>
-          </li>
-        </ul>
+        <div class="container container-portfolio">
+          <h1 hidden>button portfolio</h1>
+          <ul class="portfolio-list list">
+            <li class="portfolio-list-btn">
+              <button type="button" class="portfolio-btn">All</button>
+            </li>
+            <li class="portfolio-list-btn">
+              <button type="button" class="portfolio-btn">Web Site</button>
+            </li>
+            <li class="portfolio-list-btn">
+              <button type="button" class="portfolio-btn">App</button>
+            </li>
+            <li class="portfolio-list-btn">
+              <button type="button" class="portfolio-btn">Design</button>
+            </li>
+            <li class="portfolio-list-btn">
+              <button type="button" class="portfolio-btn">Marketing</button>
+            </li>
+          </ul>
+          <ul class="choice-list list">
+            <li class="choice-list-image link">
+              <a class="choise-link link" href="">
+                <img
+                  src="./images/portfolio1.jpg"
+                  alt="banking App"
+                  width="360"
+                />
+                <h2 class="choice-list-title">Banking App Interface Concept</h2>
+                <p class="choice-list-paragraph">App</p>
+              </a>
+            </li>
+            <li class="choice-list-image">
+              <a class="choise-link link" href="">
+                <img
+                  src="./images/portfolio2.jpg"
+                  alt="Cashless Payment"
+                  width="360"
+                />
+                <h2 class="choice-list-title">Cashless Payment</h2>
+                <p class="choice-list-paragraph">Marketing</p>
+              </a>
+            </li>
+            <li class="choice-list-image">
+              <a class="choise-link link" href="">
+                <img
+                  src="./images/portfolio3.jpg"
+                  alt="Mediation App"
+                  width="360"
+                />
+                <h2 class="choice-list-title">Meditation App</h2>
+                <p class="choice-list-paragraph">App</p>
+              </a>
+            </li>
+            <li class="choice-list-image">
+              <a class="choise-link link" href="">
+                <img
+                  src="./images/portfolio4.jpg"
+                  alt="Taxi Service"
+                  width="360"
+                />
+                <h2 class="choice-list-title">Taxi Service</h2>
+                <p class="choice-list-paragraph">Marketing</p>
+              </a>
+            </li>
+            <li class="choice-list-image">
+              <a class="choise-link link" href="">
+                <img
+                  src="./images/portfolio5.jpg"
+                  alt="Screen Illustrations"
+                  width="360"
+                />
+                <h2 class="choice-list-title">Screen Illustrations</h2>
+                <p class="choice-list-paragraph">Design</p>
+              </a>
+            </li>
+            <li class="choice-list-image">
+              <a class="choise-link link" href="">
+                <img
+                  src="./images/portfolio6.jpg"
+                  alt="Online Courses"
+                  width="360"
+                />
+                <h2 class="choice-list-title">Online Courses</h2>
+                <p class="choice-list-paragraph">Marketing</p>
+              </a>
+            </li>
+            <li class="choice-list-image">
+              <a class="choise-link link" href="">
+                <img
+                  src="./images/portfolio7.jpg"
+                  alt="Instagram Stories"
+                  width="360"
+                />
+                <h2 class="choice-list-title">Instagram Stories Concept</h2>
+                <p class="choice-list-paragraph">Design</p>
+              </a>
+            </li>
+            <li class="choice-list-image">
+              <a class="choise-link link" href="">
+                <img
+                  src="./images/portfolio8.jpg"
+                  alt="Organic Food"
+                  width="360"
+                />
+                <h2 class="choice-list-title">Organic Food</h2>
+                <p class="choice-list-paragraph">Web Site</p>
+              </a>
+            </li>
+            <li class="choice-list-image">
+              <a class="choise-link link" href="">
+                <img
+                  src="./images/portfolio9.jpg"
+                  alt="Fresh Coffee"
+                  width="360"
+                />
+                <h2 class="choice-list-title">Fresh Coffee</h2>
+                <p class="choice-list-paragraph">Web Site</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
