@@ -93,13 +93,6 @@ ul {
   margin-right: 76px;
 }
 
-.header-navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-}
-
 .header-menu-list {
   display: flex;
   padding: 24px 0;
@@ -394,6 +387,11 @@ ul {
 
 .portfolio {
   font: inherit;
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.container {
 }
 
 .container-portfolio {
@@ -428,13 +426,16 @@ ul {
   border: 1px solid transparent;
 }
 
-.portfolio-btn: :focus {
-  border: 1px solid transparent;
-}
-
 .portfolio-btn:focus {
   background: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
+}
+
+.choice-list-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .choice-list {
@@ -465,4 +466,5 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  margin-bottom: 8px;
 }
