@@ -57,11 +57,14 @@ ul {
 }
 
 .header-container {
-  display: flex;
   padding: 0 15px;
+  display: flex;
+  width: 1158px;
 }
 
 .header-navigation {
+  display: flex;
+  align-items: center;
   list-style: none;
   flex-grow: 1;
 }
@@ -94,29 +97,12 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 40px;
 }
 
 .header-menu-list {
   display: flex;
   padding: 24px 0;
-}
-
-.header-menu-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #2e2f42;
-}
-
-.header-menu-link:hover {
-  color: #404bbf;
-}
-
-.header-menu-link:focus {
-  color: #404bbf;
-}
-
-.header-menu-list {
   letter-spacing: 0.02em;
   list-style: none;
   gap: 40px;
@@ -289,6 +275,7 @@ ul {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .container-team {
@@ -302,7 +289,7 @@ ul {
   text-align: center;
   text-transform: capitalize;
   background-color: #f4f4fd;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -314,7 +301,8 @@ ul {
 
 .team-list-images {
   background-color: #ffffff;
-  width: calc((100%-72) / 4);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-images-foto {
@@ -326,12 +314,18 @@ ul {
   text-align: center;
 }
 
+.team-list-info {
+  padding: 32px 16px;
+}
+
 .team-list-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  margin-bottom: 8px;
+  text-align: center;
 }
 .team-list-paragraph {
   font-weight: 400;
@@ -339,7 +333,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-
   text-align: center;
 }
 
@@ -347,14 +340,13 @@ ul {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .team-list {
 }
 
 .container {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .container-footer {
@@ -370,6 +362,8 @@ ul {
   line-height: 1.17;
   color: #4d5ae5;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-web {
@@ -381,6 +375,8 @@ ul {
   line-height: 1.17;
   color: #f4f4fd;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-paragraph {
