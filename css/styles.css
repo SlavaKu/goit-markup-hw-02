@@ -120,6 +120,7 @@ ul {
 .header-contakts {
   font-style: normal;
   margin-left: auto;
+  display: flex;
 }
 
 .header-contakts-list {
@@ -362,7 +363,7 @@ ul {
   line-height: 1.17;
   color: #4d5ae5;
   text-transform: uppercase;
-
+  margin-bottom: 16px;
   display: inline-block;
 }
 
@@ -387,6 +388,8 @@ ul {
   padding-top: 16px;
   max-width: 264px;
   margin-top: 16px;
+  display: flex;
+  margin-left: 156px;
 }
 
 /**------section portfolio-------**/
@@ -453,12 +456,6 @@ ul {
   border: 1px solid transparent;
 }
 
-.choice-list-app {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-
 .choice-list {
   list-style: none;
   display: flex;
@@ -488,4 +485,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+
+.choice-list-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
